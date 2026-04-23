@@ -1,6 +1,16 @@
 # Null 2 Setup
 
-Flash RetroPie onto an SD card and configure it for the Null 2 hardware.
+## Two options
+
+**Option A - Use the original Null 2 images (easiest)**
+ampersand provided pre-built SD card images that are ready to flash. The download links are in [`docs/Website PDFs/Null 2 Pi Zero 1 Image.pdf`](../docs/Website%20PDFs/Null%202%20Pi%20Zero%201%20Image.pdf) (Pi Zero W) and [`docs/Website PDFs/Null 2 Pi Zero 2 Image.pdf`](../docs/Website%20PDFs/Null%202%20Pi%20Zero%202%20Image.pdf) (Pi Zero 2 W). Flash with Raspberry Pi Imager and you're done - skip to [Controls](#controls) below.
+
+**Option B - Fresh RetroPie + install script**
+Start from the latest official RetroPie image and run `install.sh` to configure the Null 2 hardware on top of it. The original images are based on RetroPie 4.1/4.7.19; current release is 4.8.
+
+The steps below are for Option B.
+
+---
 
 ## What you need
 
@@ -12,16 +22,12 @@ Flash RetroPie onto an SD card and configure it for the Null 2 hardware.
 
 ## Step 1: Flash RetroPie
 
-Download the correct base image for your Pi:
+Download the correct base image for your Pi from [retropie.org.uk/download](https://retropie.org.uk/download/):
 
-| Pi model | Image |
+| Pi model | Select |
 |---|---|
-| **Pi Zero W** (original) | [RetroPie for Pi Zero/Zero W](https://retropie.org.uk/download/) - select "Raspberry Pi 0/1" |
-| **Pi Zero 2 W** | [RetroPie for Pi Zero 2 W](https://retropie.org.uk/download/) - select "Raspberry Pi Zero 2 W" |
-
-This script is for a fresh RetroPie install - it applies Null 2 hardware config on top of a stock image. It does not modify a pre-existing Null 2 image.
-
-The original Null 2 pre-built images are still available on OneDrive (links in [`docs/Website PDFs/Null 2 Pi Zero 1 Image.pdf`](../docs/Website%20PDFs/Null%202%20Pi%20Zero%201%20Image.pdf) and [`docs/Website PDFs/Null 2 Pi Zero 2 Image.pdf`](../docs/Website%20PDFs/Null%202%20Pi%20Zero%202%20Image.pdf)). Pi Zero 2 image is RetroPie 4.7.19, Pi Zero 1 is 4.1. Current release is 4.8.
+| **Pi Zero W** (original) | Raspberry Pi 0/1 |
+| **Pi Zero 2 W** | Raspberry Pi Zero 2 W |
 
 Open Raspberry Pi Imager, select your image, and before writing press **Ctrl+Shift+X** to open advanced options:
 - Set your **WiFi credentials** (SSID + password)
