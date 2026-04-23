@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-05-05T11:04:46Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Null2-V1.5"
+        },
+        "Owner": "Alister Savage <fibreglassmonkey@gmail.com>",
+        "Size": {
+            "X": 154,
+            "Y": 62
+        }
+    }
+}

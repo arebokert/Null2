@@ -1,0 +1,39 @@
+-Null 2 Image Info-
+
+The Null 2 image uses Retropie 4.3
+
+Screen software guide:
+https://sudomod.com/forum/viewtopic.php?f=22&t=2312
+
+For the bit where you enter:
+options fbtft_device name=fb_ili9341 gpios=reset:25,dc:24,led:18 speed=16000000 bgr=1 rotate=90 custom=1
+
+Use speed=80000000 instead
+
+
+Buttons software guide:
+https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software
+
+I think I used "Pigrrl 2 controls" and then modified the retrogame.cfg file after
+
+
+System button software:
+Add 'systembuttons.py' to /home/pi/Scripts (you'll need to make the Scripts folder)
+
+Edit /etc/rc.local and add:
+sudo python /home/pi/Scripts/systembuttons.py &
+before 'exit 0'
+
+Now back up your image because I can't remember exactly what I used for audio and this might break it.
+
+Audio software:
+The Null 2 has a PCM5102a module.
+I can't remember what software I used.
+I think it was the hifiberry dac software so it may be as simple as following the first part of this
+http://pi.bek.no/HiFiBerry/
+
+
+
+Notes:
+For the screen, there's the juj driver that may provide a better framerate, I haven't tried it personally.
+https://github.com/juj/fbcp-ili9341
