@@ -6,7 +6,7 @@
 ampersand provided pre-built SD card images that are ready to flash. The download links are in [`docs/Website PDFs/Null 2 Pi Zero 1 Image.pdf`](../docs/Website%20PDFs/Null%202%20Pi%20Zero%201%20Image.pdf) (Pi Zero W) and [`docs/Website PDFs/Null 2 Pi Zero 2 Image.pdf`](../docs/Website%20PDFs/Null%202%20Pi%20Zero%202%20Image.pdf) (Pi Zero 2 W). Flash with Raspberry Pi Imager and you're done - skip to [Controls](#controls) below.
 
 **Option B - Fresh RetroPie + install script**
-Start from the latest official RetroPie image and run `install.sh` to configure the Null 2 hardware on top of it. The original images are based on RetroPie 4.1/4.7.19; current release is 4.8.
+Start from the latest official RetroPie image and run `install.sh` to configure the Null 2 hardware on top of it.
 
 The steps below are for Option B.
 

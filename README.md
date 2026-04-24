@@ -10,7 +10,7 @@ The Null 2 runs RetroPie on a Raspberry Pi Zero W or Zero 2 W, with a 3.2" ILI93
 
 See **[setup/README.md](setup/README.md)** for instructions on flashing and configuring your Null 2.
 
-The setup script applies all Null 2 hardware config to a freshly flashed stock RetroPie image - flash the official download, SSH in, clone this repo, and run the script. The original pre-built Null 2 images (Pi Zero 1: 4.1, Pi Zero 2: 4.7.19) are still available on OneDrive; see `setup/README.md` for links.
+The setup script applies all Null 2 hardware config to a freshly flashed stock RetroPie image - flash the official download, SSH in, clone this repo, and run the script. The original pre-built Null 2 images are still available on OneDrive; see `setup/README.md` for links.
 
 ---
 
